@@ -39,9 +39,9 @@ public class DatabaseAutoConfiguration {
 }
 ```
 
-> @ConditionalOnClass(Database.class)를 사용하여 Database 클래스의 존재 여부를 확인하는 조건을 설정했다. <br>
-> Database 클래스가 클래스 패스에 존재하는 경우에만 해당 구성이 활성화된다. <br>
-> 또한, @ConditionalOnMissingBean을 사용하여 이미 해당 타입의 빈이 등록되어 있지 않은 경우에만 database() 메서드가 호출되어 Database 빈이 생성된다.
+@ConditionalOnClass(Database.class)를 사용하여 Database 클래스의 존재 여부를 확인하는 조건을 설정했다. <br>
+Database 클래스가 클래스 패스에 존재하는 경우에만 해당 구성이 활성화된다. <br>
+또한, @ConditionalOnMissingBean을 사용하여 이미 해당 타입의 빈이 등록되어 있지 않은 경우에만 database() 메서드가 호출되어 Database 빈이 생성된다.
 
 <br>
 
@@ -121,8 +121,8 @@ public class MyApplication {
 }
 ```
 
-> @SpringBootApplication annotation을 이용하여 Auto Configuration을 활성화했다. <br>
-> 이 annotation은 @EnableAutoConfiguration을 내부적으로 포함하고 있기 때문에, 별도로 @EnableAutoConfiguration을 사용할 필요가 없다.
+@SpringBootApplication annotation을 이용하여 Auto Configuration을 활성화했다. <br>
+이 annotation은 @EnableAutoConfiguration을 내부적으로 포함하고 있기 때문에, 별도로 @EnableAutoConfiguration을 사용할 필요가 없다.
 
 <br>
 
@@ -137,7 +137,7 @@ com.example.MyAutoConfiguration,\
 com.example.OtherAutoConfiguration
 ```
 
-> spring.factories 파일을 사용함으로써 Spring Boot는 클래스 패스 상에서 Auto Configuration 클래스들을 탐색하고 필요한 빈들을 자동으로 등록하거나 구성을 활성화할 수 있다.
+spring.factories 파일을 사용함으로써 Spring Boot는 클래스 패스 상에서 Auto Configuration 클래스들을 탐색하고 필요한 빈들을 자동으로 등록하거나 구성을 활성화할 수 있다.
 
 <br>
 
@@ -186,12 +186,12 @@ public class MyApplication {
 <br>
 
 
-> 위의 개념과 기술을 바탕으로 Auto Configuration은 다음과 같은 순서로 동작한다.
-> 1. 애플리케이션 클래스 패스를 스캔하여 `META-INF/spring.factories` 파일에 정의된 자동 구성 클래스들을 찾는다.
-> 2. 각 자동 구성 클래스에 대해 조건부 구성을 검사한다. `@Conditional` 애노테이션에 지정된 조건들을 확인하여 조건을 만족하는지 여부를 판단한다.
-> 3. 조건을 만족하는 자동 구성 클래스들은 빈 및 구성을 생성하고, 이를 Spring 애플리케이션 컨텍스트에 등록한다.
-> 4. 구성 우선순위를 고려하여 빈들이 생성되고, 의존성 주입(Dependency Injection) 등의 처리가 이루어진다.
-> 5. 최종적으로 구성된 빈들을 사용하여 Spring Boot 애플리케이션을 실행한다.
+위의 개념과 기술을 바탕으로 Auto Configuration은 다음과 같은 순서로 동작한다.
+1. 애플리케이션 클래스 패스를 스캔하여 `META-INF/spring.factories` 파일에 정의된 자동 구성 클래스들을 찾는다.
+2. 각 자동 구성 클래스에 대해 조건부 구성을 검사한다. `@Conditional` 애노테이션에 지정된 조건들을 확인하여 조건을 만족하는지 여부를 판단한다.
+3. 조건을 만족하는 자동 구성 클래스들은 빈 및 구성을 생성하고, 이를 Spring 애플리케이션 컨텍스트에 등록한다.
+4. 구성 우선순위를 고려하여 빈들이 생성되고, 의존성 주입(Dependency Injection) 등의 처리가 이루어진다.
+5. 최종적으로 구성된 빈들을 사용하여 Spring Boot 애플리케이션을 실행한다.
 
 <img width="603" alt="1" src="https://github.com/MALLLAG/TIL/assets/87420630/bc866674-463a-4ac3-af99-12590950c747">
 

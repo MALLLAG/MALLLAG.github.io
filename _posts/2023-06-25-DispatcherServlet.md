@@ -18,9 +18,9 @@ Dispatcher Servlet은 Spring MVC 웹 애플리케이션의 핵심 컴포넌트�
 
 <img width="963" alt="1" src="https://github.com/MALLLAG/TIL/assets/87420630/f9973701-8655-4faa-b5ca-f683a5dc268e">
 
-> 클라이언트가 Dispatcher Servlet에게 요청을 보내고, Dispatcher Servlet은 Handler Mapping을 통해 어떤 핸들러가 해당 요청을 처리할지 찾는다. <br>
-> 그 후 Dispatcher Servlet은 Handler Adapter를 통해 찾은 핸들러를 실행하고, 핸들러의 실행 결과를 View Resolver를 통해 적절한 뷰로 변환한다. <br>
-> 최종적으로 Dispatcher Servlet은 변환된 뷰를 클라이언트에게 응답으로 보낸다.
+클라이언트가 Dispatcher Servlet에게 요청을 보내고, Dispatcher Servlet은 Handler Mapping을 통해 어떤 핸들러가 해당 요청을 처리할지 찾는다. <br>
+그 후 Dispatcher Servlet은 Handler Adapter를 통해 찾은 핸들러를 실행하고, 핸들러의 실행 결과를 View Resolver를 통해 적절한 뷰로 변환한다. <br>
+최종적으로 Dispatcher Servlet은 변환된 뷰를 클라이언트에게 응답으로 보낸다.
 
 <br>
 
