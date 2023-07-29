@@ -28,7 +28,7 @@ url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for you
 # your social media links etc
 #######################################################################
 
-heading: Simply Jekyll
+heading: MALLLAG
 subheading: # subheading won't work without a tagline, 
           # tagline is mandatory if you want the 
           # suheading to appear. The reason is
@@ -56,17 +56,16 @@ user:
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
   name: MALLLAG
-  bio: Programmer ∪ Writer. Interested in constraints and correspondences.
-  email: raghu-veer@outlook.com
+  bio: Backend Developer. Interested in Kotlin and Spring.
+  email: beyool95@naver.com
   photo: /assets/img/profile.png
-  alt_link: rgvr.me
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
     enabled: false  # turn this to true
-    twitter: rgvrme
-    github: rgvr 
-    youtube: rgvr 
-    linkedin: rgvr  
+    twitter: false
+    github: malllag
+    youtube: false
+    linkedin: false
     twitch: null
     facebook: null 
     instagram: null

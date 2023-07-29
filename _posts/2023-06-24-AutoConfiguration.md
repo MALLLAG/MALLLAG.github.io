@@ -193,16 +193,6 @@ public class MyApplication {
 > 4. 구성 우선순위를 고려하여 빈들이 생성되고, 의존성 주입(Dependency Injection) 등의 처리가 이루어진다.
 > 5. 최종적으로 구성된 빈들을 사용하여 Spring Boot 애플리케이션을 실행한다.
 
-```mermaid
-graph LR
-A[애플리케이션 클래스 패스 스캔] --> B[자동 구성 클래스 탐색]
-B --> C[조건부 구성 검사]
-C -- 조건 만족 --> D[빈 및 구성 생성]
-D --> E[Spring 애플리케이션 컨텍스트 등록]
-C -- 조건 불만족 --> F[다음 자동 구성 클래스 탐색]
-E --> G[의존성 주입 및 빈 생성]
-F --> B
-G --> H[애플리케이션 실행]
-```
+<img width="603" alt="1" src="https://github.com/MALLLAG/TIL/assets/87420630/bc866674-463a-4ac3-af99-12590950c747">
 
 Auto Configuration은 Spring Boot의 핵심 기능 중 하나로, 개발자는 필요한 빈과 구성을 명시적으로 작성하지 않아도 애플리케이션을 간편하게 구성할 수 있다.
