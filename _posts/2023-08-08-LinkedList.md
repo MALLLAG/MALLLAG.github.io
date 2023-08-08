@@ -39,10 +39,15 @@ comments: true
 
 ## 단일 연결 리스트
 
+<img width="506" alt="1" src="https://github.com/MALLLAG/MALLLAG.github.io/assets/87420630/55f13730-e502-49b6-b0ee-877a0f675e5d">
 
 ## 이중 연결 리스트
 
+<img width="719" alt="2" src="https://github.com/MALLLAG/MALLLAG.github.io/assets/87420630/f37a9289-f7aa-45b3-bf2a-b799b2b447f2">
+
 ## 원형 단일 연결 리스트
+
+<img width="482" alt="3" src="https://github.com/MALLLAG/MALLLAG.github.io/assets/87420630/5775e3ea-ba7c-4bcb-9fdd-e29b9465283c">
 
 <br>
 <hr>
