@@ -133,13 +133,15 @@ disqus:
     shortname: rgvr
 
 markdown: kramdown
+highlighter: rouge
+    input: GFM
 
-kramdown:
-  input: GFM
-  hard_wrap: true
-  math_engine: katex
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-  syntax_highlighter: rouge
+# kramdown:
+  # input: GFM
+  # hard_wrap: true
+  # math_engine: katex
+  # smart_quotes: ["apos", "apos", "quot", "quot"]
+  # syntax_highlighter: rouge
   
 sass:
   style: compressed
