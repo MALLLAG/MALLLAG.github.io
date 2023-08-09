@@ -51,10 +51,7 @@ copyright:
   msg: MALLLAG # This is a mandatory attribute for copyright to be displayed
 
 user:
-  display: true # setting it to false will remove the header image and bio
-                # Note that user settings come wholesale, it does not have the 
-                # granular enabling or disabling as with the 'preferences'
-                # or the site-wide settings.
+  display: true
   name: MALLLAG
   bio: Backend Developer. Interested in Kotlin and Spring.
   email: beyool95@naver.com
