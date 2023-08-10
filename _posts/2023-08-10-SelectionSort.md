@@ -13,6 +13,8 @@ comments: true
 2. 1의 값을 배열의 맨 앞과 교체한다.
 3. 교체한 자리를 제외하고 정렬할 개수가 1개만 남을때까지 반복한다.
 
+![2](https://github.com/MALLLAG/MALLLAG.github.io/assets/87420630/de8d356b-efe8-4eee-ac94-61d67ef05281)
+
 # 선택 정렬 구현
 
 ```kotlin
