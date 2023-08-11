@@ -15,6 +15,10 @@ comments: true
 
 ![2](https://github.com/MALLLAG/MALLLAG.github.io/assets/87420630/de8d356b-efe8-4eee-ac94-61d67ef05281)
 
+<br>
+<hr>
+
+
 # 선택 정렬 구현
 
 ```kotlin
