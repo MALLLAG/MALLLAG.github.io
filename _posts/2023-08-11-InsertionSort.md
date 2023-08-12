@@ -10,6 +10,8 @@ comments: true
 오름차순으로 정렬된 배열을 내림차순으로 정렬하는 최악의 경우 O(n^2)의 시간 복잡도를 가진다. <br>
 버블 정렬과 선택 정렬에 비해 최선의 경우 O(n) 시간 복잡도를 가지므로 두 정렬보다 효율이 좋다.
 
+![1](https://github.com/MALLLAG/MALLLAG.github.io/assets/87420630/d78a5ad7-8443-4edb-80b4-77ffd5127568)
+
 <br>
 <hr>
 
